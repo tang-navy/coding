@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(single_list)
+set(CMAKE_C_COMPILER "C:/data/appdata/mingw64/bin/gcc.exe")
+aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR}/src/ SRC)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin)
+add_executable(SL ${SRC})

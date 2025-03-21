@@ -1,0 +1,9 @@
+A1,7kg
+A2,19kg
+A3,13kg
+B1,8kg
+B2,12kg
+C1,18kg
+C2,25kg
+D1,20kg
+D2,15kg

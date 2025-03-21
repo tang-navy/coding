@@ -207,7 +207,7 @@ f.close()
 L=[1,2,3,4,5]
 it=L.__iter__()
 print(it.__next__())
-
+print("thj")
 
 
 

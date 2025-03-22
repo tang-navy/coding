@@ -10,5 +10,4 @@ typedef struct DNode
     struct DNode* next;
     struct DNode* pre;
 }DNode,*DList;
-
 #endif

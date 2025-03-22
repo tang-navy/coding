@@ -13,5 +13,6 @@ int main()
    list_print(L);
    sort(L);
    list_print(L);
+   reverse(L);
 
 }

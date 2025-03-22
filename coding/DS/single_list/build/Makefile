@@ -272,6 +272,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SL.dir\build.make CMakeFiles/SL.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/reverse.obj: src/reverse.c.obj
+.PHONY : src/reverse.obj
+
+# target to build an object file
+src/reverse.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SL.dir\build.make CMakeFiles/SL.dir/src/reverse.c.obj
+.PHONY : src/reverse.c.obj
+
+src/reverse.i: src/reverse.c.i
+.PHONY : src/reverse.i
+
+# target to preprocess a source file
+src/reverse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SL.dir\build.make CMakeFiles/SL.dir/src/reverse.c.i
+.PHONY : src/reverse.c.i
+
+src/reverse.s: src/reverse.c.s
+.PHONY : src/reverse.s
+
+# target to generate assembly for a file
+src/reverse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SL.dir\build.make CMakeFiles/SL.dir/src/reverse.c.s
+.PHONY : src/reverse.c.s
+
 src/sort.obj: src/sort.c.obj
 .PHONY : src/sort.obj
 
@@ -323,6 +347,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/reverse.obj
+	@echo ... src/reverse.i
+	@echo ... src/reverse.s
 	@echo ... src/sort.obj
 	@echo ... src/sort.i
 	@echo ... src/sort.s

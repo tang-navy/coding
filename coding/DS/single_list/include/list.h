@@ -15,4 +15,5 @@ bool insert_by_order(LinkList L,int position,int a);
 void list_print(LinkList L);
 void delete_by_order(LinkList L,int position);
 void sort(LinkList L);
+void reverse(LinkList L);
 #endif

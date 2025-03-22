@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SL.dir/src/list_print.c.obj.d"
   "CMakeFiles/SL.dir/src/main.c.obj"
   "CMakeFiles/SL.dir/src/main.c.obj.d"
+  "CMakeFiles/SL.dir/src/reverse.c.obj"
+  "CMakeFiles/SL.dir/src/reverse.c.obj.d"
   "CMakeFiles/SL.dir/src/sort.c.obj"
   "CMakeFiles/SL.dir/src/sort.c.obj.d"
   "bin/SL.exe"

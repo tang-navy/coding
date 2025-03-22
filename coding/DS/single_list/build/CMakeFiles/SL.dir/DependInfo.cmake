@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/data/userdata/coding/DS/single_list/src/insert_by-order.c" "CMakeFiles/SL.dir/src/insert_by-order.c.obj" "gcc" "CMakeFiles/SL.dir/src/insert_by-order.c.obj.d"
   "C:/data/userdata/coding/DS/single_list/src/list_print.c" "CMakeFiles/SL.dir/src/list_print.c.obj" "gcc" "CMakeFiles/SL.dir/src/list_print.c.obj.d"
   "C:/data/userdata/coding/DS/single_list/src/main.c" "CMakeFiles/SL.dir/src/main.c.obj" "gcc" "CMakeFiles/SL.dir/src/main.c.obj.d"
+  "C:/data/userdata/coding/DS/single_list/src/reverse.c" "CMakeFiles/SL.dir/src/reverse.c.obj" "gcc" "CMakeFiles/SL.dir/src/reverse.c.obj.d"
   "C:/data/userdata/coding/DS/single_list/src/sort.c" "CMakeFiles/SL.dir/src/sort.c.obj" "gcc" "CMakeFiles/SL.dir/src/sort.c.obj.d"
   )
 

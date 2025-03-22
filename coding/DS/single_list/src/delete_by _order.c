@@ -3,7 +3,7 @@ void delete_by_order(LinkList L,int position)
 {
     ListNode*p=L->next;
     int i=1;
-    if(i<1)
+    if(position<1)
     {
         printf("the order you entered must no less than 1\n");
         return;

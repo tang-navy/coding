@@ -1,0 +1,3 @@
+C:/data/userdata/coding/DS/double_list/build/CMakeFiles/DL.dir
+C:/data/userdata/coding/DS/double_list/build/CMakeFiles/edit_cache.dir
+C:/data/userdata/coding/DS/double_list/build/CMakeFiles/rebuild_cache.dir

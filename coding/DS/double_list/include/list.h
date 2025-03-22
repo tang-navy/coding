@@ -10,4 +10,8 @@ typedef struct DNode
     struct DNode* next;
     struct DNode* pre;
 }DNode,*DList;
+
+DList init(DList L);
+void insert(DList L,int elem);
+void print_list(DList L);
 #endif

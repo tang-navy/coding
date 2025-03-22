@@ -128,6 +128,30 @@ DL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DL.dir\build.make CMakeFiles/DL.dir/build
 .PHONY : DL/fast
 
+src/delete_by_order.obj: src/delete_by_order.c.obj
+.PHONY : src/delete_by_order.obj
+
+# target to build an object file
+src/delete_by_order.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DL.dir\build.make CMakeFiles/DL.dir/src/delete_by_order.c.obj
+.PHONY : src/delete_by_order.c.obj
+
+src/delete_by_order.i: src/delete_by_order.c.i
+.PHONY : src/delete_by_order.i
+
+# target to preprocess a source file
+src/delete_by_order.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DL.dir\build.make CMakeFiles/DL.dir/src/delete_by_order.c.i
+.PHONY : src/delete_by_order.c.i
+
+src/delete_by_order.s: src/delete_by_order.c.s
+.PHONY : src/delete_by_order.s
+
+# target to generate assembly for a file
+src/delete_by_order.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DL.dir\build.make CMakeFiles/DL.dir/src/delete_by_order.c.s
+.PHONY : src/delete_by_order.c.s
+
 src/init.obj: src/init.c.obj
 .PHONY : src/init.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DL
+	@echo ... src/delete_by_order.obj
+	@echo ... src/delete_by_order.i
+	@echo ... src/delete_by_order.s
 	@echo ... src/init.obj
 	@echo ... src/init.i
 	@echo ... src/init.s

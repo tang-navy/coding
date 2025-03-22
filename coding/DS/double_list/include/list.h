@@ -7,6 +7,7 @@
 typedef struct DNode
 {
     int data;
+    //int length;
     struct DNode* next;
     struct DNode* pre;
 }DNode,*DList;
@@ -14,4 +15,5 @@ typedef struct DNode
 DList init(DList L);
 void insert(DList L,int elem);
 void print_list(DList L);
+void delete_by_order(DList L,int position);
 #endif

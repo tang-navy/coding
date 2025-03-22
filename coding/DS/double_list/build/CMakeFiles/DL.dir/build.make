@@ -71,11 +71,26 @@ include CMakeFiles/DL.dir/flags.make
 CMakeFiles/DL.dir/codegen:
 .PHONY : CMakeFiles/DL.dir/codegen
 
+CMakeFiles/DL.dir/src/delete_by_order.c.obj: CMakeFiles/DL.dir/flags.make
+CMakeFiles/DL.dir/src/delete_by_order.c.obj: CMakeFiles/DL.dir/includes_C.rsp
+CMakeFiles/DL.dir/src/delete_by_order.c.obj: C:/data/userdata/coding/DS/double_list/src/delete_by_order.c
+CMakeFiles/DL.dir/src/delete_by_order.c.obj: CMakeFiles/DL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DL.dir/src/delete_by_order.c.obj"
+	C:\data\appdata\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DL.dir/src/delete_by_order.c.obj -MF CMakeFiles\DL.dir\src\delete_by_order.c.obj.d -o CMakeFiles\DL.dir\src\delete_by_order.c.obj -c C:\data\userdata\coding\DS\double_list\src\delete_by_order.c
+
+CMakeFiles/DL.dir/src/delete_by_order.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DL.dir/src/delete_by_order.c.i"
+	C:\data\appdata\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\data\userdata\coding\DS\double_list\src\delete_by_order.c > CMakeFiles\DL.dir\src\delete_by_order.c.i
+
+CMakeFiles/DL.dir/src/delete_by_order.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DL.dir/src/delete_by_order.c.s"
+	C:\data\appdata\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\data\userdata\coding\DS\double_list\src\delete_by_order.c -o CMakeFiles\DL.dir\src\delete_by_order.c.s
+
 CMakeFiles/DL.dir/src/init.c.obj: CMakeFiles/DL.dir/flags.make
 CMakeFiles/DL.dir/src/init.c.obj: CMakeFiles/DL.dir/includes_C.rsp
 CMakeFiles/DL.dir/src/init.c.obj: C:/data/userdata/coding/DS/double_list/src/init.c
 CMakeFiles/DL.dir/src/init.c.obj: CMakeFiles/DL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DL.dir/src/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DL.dir/src/init.c.obj"
 	C:\data\appdata\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DL.dir/src/init.c.obj -MF CMakeFiles\DL.dir\src\init.c.obj.d -o CMakeFiles\DL.dir\src\init.c.obj -c C:\data\userdata\coding\DS\double_list\src\init.c
 
 CMakeFiles/DL.dir/src/init.c.i: cmake_force
@@ -90,7 +105,7 @@ CMakeFiles/DL.dir/src/insert.c.obj: CMakeFiles/DL.dir/flags.make
 CMakeFiles/DL.dir/src/insert.c.obj: CMakeFiles/DL.dir/includes_C.rsp
 CMakeFiles/DL.dir/src/insert.c.obj: C:/data/userdata/coding/DS/double_list/src/insert.c
 CMakeFiles/DL.dir/src/insert.c.obj: CMakeFiles/DL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DL.dir/src/insert.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DL.dir/src/insert.c.obj"
 	C:\data\appdata\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DL.dir/src/insert.c.obj -MF CMakeFiles\DL.dir\src\insert.c.obj.d -o CMakeFiles\DL.dir\src\insert.c.obj -c C:\data\userdata\coding\DS\double_list\src\insert.c
 
 CMakeFiles/DL.dir/src/insert.c.i: cmake_force
@@ -105,7 +120,7 @@ CMakeFiles/DL.dir/src/main.c.obj: CMakeFiles/DL.dir/flags.make
 CMakeFiles/DL.dir/src/main.c.obj: CMakeFiles/DL.dir/includes_C.rsp
 CMakeFiles/DL.dir/src/main.c.obj: C:/data/userdata/coding/DS/double_list/src/main.c
 CMakeFiles/DL.dir/src/main.c.obj: CMakeFiles/DL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DL.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DL.dir/src/main.c.obj"
 	C:\data\appdata\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DL.dir/src/main.c.obj -MF CMakeFiles\DL.dir\src\main.c.obj.d -o CMakeFiles\DL.dir\src\main.c.obj -c C:\data\userdata\coding\DS\double_list\src\main.c
 
 CMakeFiles/DL.dir/src/main.c.i: cmake_force
@@ -120,7 +135,7 @@ CMakeFiles/DL.dir/src/print_list.c.obj: CMakeFiles/DL.dir/flags.make
 CMakeFiles/DL.dir/src/print_list.c.obj: CMakeFiles/DL.dir/includes_C.rsp
 CMakeFiles/DL.dir/src/print_list.c.obj: C:/data/userdata/coding/DS/double_list/src/print_list.c
 CMakeFiles/DL.dir/src/print_list.c.obj: CMakeFiles/DL.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DL.dir/src/print_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DL.dir/src/print_list.c.obj"
 	C:\data\appdata\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DL.dir/src/print_list.c.obj -MF CMakeFiles\DL.dir\src\print_list.c.obj.d -o CMakeFiles\DL.dir\src\print_list.c.obj -c C:\data\userdata\coding\DS\double_list\src\print_list.c
 
 CMakeFiles/DL.dir/src/print_list.c.i: cmake_force
@@ -133,6 +148,7 @@ CMakeFiles/DL.dir/src/print_list.c.s: cmake_force
 
 # Object files for target DL
 DL_OBJECTS = \
+"CMakeFiles/DL.dir/src/delete_by_order.c.obj" \
 "CMakeFiles/DL.dir/src/init.c.obj" \
 "CMakeFiles/DL.dir/src/insert.c.obj" \
 "CMakeFiles/DL.dir/src/main.c.obj" \
@@ -141,6 +157,7 @@ DL_OBJECTS = \
 # External object files for target DL
 DL_EXTERNAL_OBJECTS =
 
+DL.exe: CMakeFiles/DL.dir/src/delete_by_order.c.obj
 DL.exe: CMakeFiles/DL.dir/src/init.c.obj
 DL.exe: CMakeFiles/DL.dir/src/insert.c.obj
 DL.exe: CMakeFiles/DL.dir/src/main.c.obj
@@ -149,7 +166,7 @@ DL.exe: CMakeFiles/DL.dir/build.make
 DL.exe: CMakeFiles/DL.dir/linkLibs.rsp
 DL.exe: CMakeFiles/DL.dir/objects1.rsp
 DL.exe: CMakeFiles/DL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable DL.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\data\userdata\coding\DS\double_list\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable DL.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DL.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

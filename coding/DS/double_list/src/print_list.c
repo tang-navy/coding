@@ -7,4 +7,5 @@ void print_list(DList L)
         printf("%d<->",p->next->data);
         p=p->next;
     }
+    printf("\n");
 }

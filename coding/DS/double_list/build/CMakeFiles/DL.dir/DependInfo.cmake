@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/data/userdata/coding/DS/double_list/src/delete_by_order.c" "CMakeFiles/DL.dir/src/delete_by_order.c.obj" "gcc" "CMakeFiles/DL.dir/src/delete_by_order.c.obj.d"
   "C:/data/userdata/coding/DS/double_list/src/init.c" "CMakeFiles/DL.dir/src/init.c.obj" "gcc" "CMakeFiles/DL.dir/src/init.c.obj.d"
   "C:/data/userdata/coding/DS/double_list/src/insert.c" "CMakeFiles/DL.dir/src/insert.c.obj" "gcc" "CMakeFiles/DL.dir/src/insert.c.obj.d"
   "C:/data/userdata/coding/DS/double_list/src/main.c" "CMakeFiles/DL.dir/src/main.c.obj" "gcc" "CMakeFiles/DL.dir/src/main.c.obj.d"

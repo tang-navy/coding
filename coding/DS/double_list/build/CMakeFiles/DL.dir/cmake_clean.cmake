@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DL.dir/src/delete_by_order.c.obj"
+  "CMakeFiles/DL.dir/src/delete_by_order.c.obj.d"
   "CMakeFiles/DL.dir/src/init.c.obj"
   "CMakeFiles/DL.dir/src/init.c.obj.d"
   "CMakeFiles/DL.dir/src/insert.c.obj"

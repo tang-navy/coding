@@ -8,4 +8,6 @@ int main()
     insert(L,44);
     insert(L,9);
     print_list(L);
+    delete_by_order(L,2);
+    print_list(L);
 }
